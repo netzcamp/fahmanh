@@ -28,12 +28,4 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:background="@android:color/holo_red_dark"
-        android:layout_width="fill_parent"
-        android:translationY="0dp"
-        android:layout_alignParentBottom="true"
-        android:layout_height="100dp">
-
-    </LinearLayout>
 </RelativeLayout>

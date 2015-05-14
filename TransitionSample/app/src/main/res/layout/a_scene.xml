@@ -20,12 +20,5 @@
             android:text="Text Line 1" />
     </LinearLayout>
 
-    <LinearLayout
-        android:background="@android:color/holo_red_dark"
-        android:layout_width="fill_parent"
-        android:layout_alignParentBottom="true"
-        android:translationY="100dp"
-        android:layout_height="100dp">
-
-    </LinearLayout>
+    
 </RelativeLayout>
