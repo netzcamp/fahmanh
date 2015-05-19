@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:id="@+id/root_container"
+
+    >
+
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/content_list"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <ImageButton
+        android:id="@+id/float_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drop26"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="fbClick"
+        />
+
+</FrameLayout>
